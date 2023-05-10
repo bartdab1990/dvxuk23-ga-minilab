@@ -42,7 +42,7 @@ jobs:
         with:
           args: --severity-threshold=high
           
-    opensource-monitor:
+  opensource-monitor:
     needs: [ opensource-security ]
     runs-on: ubuntu-latest
     steps:
